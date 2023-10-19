@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="ets.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>World News</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AIN'T DHIKA NEWS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-end">
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SUBSCRIPTION</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CATEGORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#trending">Trending News</a></li>
+                  <li><a class="dropdown-item" href="#jobs">Job Vacancy</a></li>
+                  <li><a class="dropdown-item" href="#adver">Advertisement</a></li>
+                  <li><a class="dropdown-item" href="#komen">Comment</a></li>
+                  <li><a class="dropdown-item" href="#">Politics</a></li>
+                  <li><a class="dropdown-item" href="#">Sports</a></li>
+                  <li><a class="dropdown-item" href="#">Environment</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- page 1-->
+    <div class="container">
+      <div class="row justify-content-beetween">
+        <div class="col"></div>
+      </div>
+    </div>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <!--sbelahh kiri-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="over">
+            <h1>BREAKING NEWS , LATEST NEWS, AROUND THE WORLD</h1>
+            <p>
+              In a world where information travels at the speed of light, our
+              mission is to bring you the latest and most relevant news from
+              across the globe. From breaking stories that shape our world to
+              in-depth analysis of current events, we're dedicated to keeping
+              you informed.
+            </p>
+          </div>
+          <img src="assets/news7.avif" class="d-block w-100" alt="foto1" />
+        </div>
+        <div class="carousel-item">
+          <div class="over">
+            <h1>BREAKING NEWS , LATEST NEWS, AROUND THE WORLD</h1>
+            <p>
+              In a world where information travels at the speed of light, our
+              mission is to bring you the latest and most relevant news from
+              across the globe. From breaking stories that shape our world to
+              in-depth analysis of current events, we're dedicated to keeping
+              you informed.
+            </p>
+          </div>
+          <img src="assets/news5.avif" class="d-block w-100" alt="foto2" />
+        </div>
+        <div class="carousel-item">
+          <div class="over">
+            <h1>BREAKING NEWS , LATEST NEWS, AROUND THE WORLD</h1>
+            <p>
+              In a world where information travels at the speed of light, our
+              mission is to bring you the latest and most relevant news from
+              across the globe. From breaking stories that shape our world to
+              in-depth analysis of current events, we're dedicated to keeping
+              you informed.
+            </p>
+          </div>
+          <img src="assets/news6.avif" class="d-block w-100" alt="foto3" />
+        </div>
+      </div>
+    </div>
+
+    <!--Page trending news-->
+    <div id="trending">
+      <h1>TRENDING NEWS</h1>
+      <div class="card mt-4 mb-3 w-100" style="max-width: 5000px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="assets/370z.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Unveiling the 2023 Nissan 370Z: A New Era of Performance
+              </h5>
+              <p class="card-text">
+                Nissan is set to usher in a new era of performance with the
+                release of the 2023 Nissan 370Z. The latest iteration of this
+                beloved sports car promises to deliver an exhilarating driving
+                experience like never before. Here are some key highlights of
+                the 2023 Nissan 370Z: More Power: The heart of the 370Z, its
+                engine, has been fine-tuned to deliver even more power. The V6
+                engine roars to life with a boost in horsepower, making
+                acceleration lightning-fast and thrilling. Sleeker Design: The
+                2023 370Z sports a sleek and modern design, maintaining the
+                classic Z-car styling cues while adding contemporary touches.
+                It's a head-turner on the road, with aerodynamics that enhance
+                both form and function. Advanced Technology: Inside the cabin,
+                cutting-edge technology and infotainment systems provide a
+                seamless driving experience. From a premium sound system to
+                advanced navigation, every aspect is designed for the modern
+                driver. Improved Handling: Nissan has further fine-tuned the
+                suspension and handling to provide precise control and a superb
+                connection between driver and car. The 2023 370Z feels like an
+                extension of the driver.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 7 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 w-100" style="max-width: 5000px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="assets/exorcist.webp"
+              class="img-fluid rounded-start"
+              alt="excorcist"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                ‘The Exorcist: Believer’ brings back Ellen Burstyn in a mix of
+                nostalgia and horror
+              </h5>
+              <p class="card-text">
+                A half-century after the original helped rewrite the rules of
+                horror and launched a thousand imitators, “The Exorcist:
+                Believer” tries picking up that mantle, with the lure of
+                90-year-old Ellen Burstyn reprising her role. The nostalgia
+                factor elevates an otherwise slow-building film that maintains
+                an eerie creepiness before fumbling through a slightly muddled
+                climactic act. It’s hard to overstate how shocking the original
+                “The Exorcist” was in 1973, based on William Peter Blatty’s
+                novel about demonic possession, changing, among other things,
+                how a lot of people look at pea soup. A trio of widely spaced
+                sequels, one prequel, endless cable specials and countless
+                knockoffs have followed, further evidence that when a title is
+                this iconic, it’s hard to keep a good demon down. That seems to
+                be the plan with “Believer,” which hails from horror factory
+                Blumhouse and director David Gordon Green, who oversaw the
+                recent “Halloween” trilogy. Yet franchising this property
+                presents a formidable challenge, since “The Exorcist” derived
+                its fear factor from an understated dread every time someone
+                approached the stairs to the possessed girl’s room, unlike the
+                jump-at-you scares and ostentatious gore that have become the
+                status quo in the intervening decades.
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 w-100" style="max-width: 5000px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="assets/rex-orange-county.jpeg"
+              class="img-fluid rounded-start"
+              alt="rex orange county"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Limited number of tickets have been released for Rex Orange
+                County Live in Asia 2023 Jakarta
+              </h5>
+              <p class="card-text">
+                Rex Orange County returns to the road this fall for the Live in
+                Asia 2023 Tour including one show in Indonesia on October 14 &
+                15 at Beach City International Stadium, Ancol, Jakarta. Kicking
+                off September 15 and running through October 21, the run of
+                dates sees Rex performing across New Zealand, Australia, and
+                Asia, making stops in Manila, Hong Kong, Taipei, Jakarta, Kuala
+                Lumpur and Bangkok.Last year, Rex released his latest album, WHO
+                CARES?, which charted #1 in the UK, #2 in Australia, and #5 in
+                the US. The record includes stand-out songs such as “AMAZING,”
+                “THE SHADE,” “KEEP IT UP,” and “OPEN A WINDOW” featuring Tyler,
+                The Creator, marking the first time the two have collaborated
+                since Tyler’s 2017 album Flower Boy. Complex praised the album
+                in their ‘Best of 2022 So Far’ list, calling it “sobering,
+                uplifting, fun, and honest all at the same time, making for a
+                great addition to his expanding catalog.” He followed suit with
+                the release of his single “THREAT,” which was heralded by The
+                New York Times as “a tender take on self-doubt.”
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Page lowongan pekerjaan-->
+    <div id="jobs">
+      <h1>JOB VACANCY</h1>
+      <div class="row mt-3 row-cols-1 row-cols-md-3 column-gap-3">
+        <div class="card mb-3" style="width: 30rem">
+          <div class="card-body">
+            <div class="col">
+              <img
+                src="assets/golf.avif"
+                class="img-fluid rounded"
+                alt="golf"
+              />
+            </div>
+            <h5 class="card-title">Golf Course Superintendent</h5>
+            <p class="card-text">Geraldton Golf Club</p>
+            <p>Geraldton, Geraldton, Gascoyne & Midwest WA</p>
+            <p>Sport & Recreation (Sport & Recreation)</p>
+            <ul>
+              <li>An opportunity to make your mark in the industry</li>
+              <li>Be part of a fast growing organisation</li>
+              <li>Attractive salary offered to the successful candiate</li>
+            </ul>
+            <p>
+              Geraldton Golf Club is excited to welcome a highly motivated
+              Course Superintendent to lead our team towards the next stage of
+              Club development.
+            </p>
+            <a href="#" class="btn btn-primary mb-1">Apply Now</a>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 30rem">
+          <div class="card-body">
+            <div class="col">
+              <img
+                src="assets/nurse.avif"
+                class="img-fluid rounded"
+                alt="nurse"
+              />
+            </div>
+            <h5 class="card-title">Equipment Nurse - ICU</h5>
+            <p class="card-text">Monash Health</p>
+            <p>Clayton, Melbourne VIC</p>
+            <p>
+              Nursing - A&E, Critical Care & ICU classification: Healthcare &
+              Medical (Healthcare & Medical)
+            </p>
+            <p>
+              Monash Medical Centre Clayton Intensive Care Unit (ICU) is a
+              tertiary 27 bed unit, combining ICU and HDU. The unit specialises
+              in Obstetrics, Neuro...
+            </p>
+            <a href="#" class="btn btn-primary">Apply Now</a>
+          </div>
+        </div>
+
+        <div class="card mb-3" style="width: 30rem">
+          <div class="card-body">
+            <div class="col">
+              <img
+                src="assets/mining.avif"
+                class="img-fluid rounded"
+                alt="mining"
+              />
+            </div>
+            <h5 class="card-title">Mining Engineering</h5>
+            <p class="card-text">Blackwater, Gladstone & Central QLD</p>
+            <p>
+              Mining - Engineering & Maintenance classification: Mining,
+              Resources & Energy (Mining, Resources & Energy)
+            </p>
+            <ul>
+              <li>Permanent fulltime + competitive package on offer</li>
+              <li>
+                FIFO from Brisbane, DIDO allowance or living out of camp
+                allowance
+              </li>
+              <li>8/6 roster</li>
+            </ul>
+            <p>
+              Join the Thiess team at our Lake Vermont coal project as their
+              next Mining Engineer!
+            </p>
+            <a href="#" class="btn btn-primary pb-2">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Page Advertisement-->
+    <div id="adver">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/adver1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Craving the Ultimate Burger Experience🍔?
+              </h5>
+              <p class="card-text">
+                Satisfy your burger cravings and indulge in a world of flavor at
+                Burger King. Whether you're dining in, taking out, or going
+                through the drive-thru, we're here to serve you the best burgers
+                in town. Don't miss out on the ultimate burger experience!
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Advertisement</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/adver2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Unleash Your Potential with Nike Hyperdunk 2023
+              </h5>
+              <p class="card-text">
+                Elevate your game, dominate the court, and do it in style with
+                Nike Hyperdunk 2023. Get ready to be unstoppable. Just do it.
+                🏀💪
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Advertisement</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/adver4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Nothing's scarier than a house without m&m!
+              </h5>
+              <p class="card-text">
+                Experience the magic of M&M's – the candy that turns every
+                moment into a delightful celebration. Treat yourself or share
+                the joy with others. Grab a bag or two today!M&M's – Melts in
+                Your Mouth, Not in Your Hand! 😄🍫🌈
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Advertisement</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- comment -->
+    <section id="komen">
+      <form id="form">
+        <h1>COMMENT</h1>
+        <div class="row mt-2 mb-2">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="name" class="form-control" placeholder="name" name="name"/>
+              </div>
+            </div>
+            <div class="row mb-2"></div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="comment" class="form-control" placeholder="comment" name="comment"/>
+              </div>
+            </div>
+          </div>
+          <div class="form-outline">
+              <button type="submit" class="btn btn-outline-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

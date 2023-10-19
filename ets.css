@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.carousel-inner {
+  text-align: center;
+  z-index: 100;
+}
+.carousel-content {
+  position: relative;
+}
+
+.over {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Adjust as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  text-shadow: 5px 5px 5px #000000;
+}
+
+#trending {
+  padding: 100px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#trending h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#jobs {
+  padding: 100px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#jobs h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#adver {
+  padding: 100px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#komen {
+  margin-top: 100px;
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #04364a;
+  color: white;
+  text-align: center;
+}
+
+#komen h1 {
+  font-family: "Montserrat", sans-serif;
+}
